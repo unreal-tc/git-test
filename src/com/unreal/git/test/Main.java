@@ -7,6 +7,6 @@ public class Main {
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
         int i=input.nextInt();
-        throw new RuntimeException();
+        System.out.println(new UserServiceImpl().get(i));
     }
 }
